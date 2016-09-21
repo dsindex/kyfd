@@ -14,10 +14,7 @@ AC_CONFIG_FILES([
     src/include/kyfd/Makefile
 ])
 
-# disable shared libraries
-AM_DISABLE_SHARED
 AC_PROG_LIBTOOL
-
 
 # Intialize automake
 AM_INIT_AUTOMAKE([-Wall])
