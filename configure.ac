@@ -1,8 +1,17 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
-AC_PREREQ([2.63])
 AC_INIT([kyfd], [0.0.5], [kyfd@phontron.com])
+PACKAGE=kyfd
+
+AC_PREREQ([2.63])
+
+AC_CONFIG_AUX_DIR([build])
+
+AC_CANONICAL_TARGET
+
+AM_INIT_AUTOMAKE([foreign])
+
 AC_CONFIG_SRCDIR([src/lib/decoder.cc])
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_FILES([
@@ -14,14 +23,11 @@ AC_CONFIG_FILES([
     src/include/kyfd/Makefile
 ])
 
-AC_PROG_LIBTOOL
-
-# Intialize automake
-AM_INIT_AUTOMAKE([-Wall])
-
 # Checks for programs.
 AC_PROG_CXX
 AC_PROG_CC
+AC_PROG_INSTALL
+AC_PROG_LIBTOOL
 
 # Checks for libraries.
 
