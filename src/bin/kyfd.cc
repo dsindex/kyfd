@@ -73,4 +73,5 @@ int main(int argc, char** argv) {
     delete decoder;
     delete config;
 
+	return 0;
 }

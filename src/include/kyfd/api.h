@@ -5,7 +5,11 @@
 extern "C" {
 #endif
 
-void* kyfd_create(int argc, char** argv, void** config);
+void* create_decoder(int argc, char** argv, void** config);
+
+void  destroy_decoder(void* decoder, void* config);
+
+int   run_decoder(void* decoder, char* in, char* out, int out_size);
 
 #ifdef __cplusplus
 }
