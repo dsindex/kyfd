@@ -1,4 +1,4 @@
-AM_CPPFLAGS = -I$(srcdir)/../include -I$(FSTDIR)/src/bin
+AM_CPPFLAGS = -I$(srcdir)/../include
 
 lib_LTLIBRARIES = libkyfd.la
 libkyfd_la_SOURCES = decoder.cc decoder-config.cc
