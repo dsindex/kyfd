@@ -1,12 +1,13 @@
-py-kyfd
+kyfd
 ===
 
 - description
   - this is an alternative of [kyfd](https://github.com/neubig/kyfd)
     - forked from [kyfd last commit](https://github.com/neubig/kyfd/commit/db6e29e6f2bbc229a08fc902cd1435333f56bc81)
 	  - same version as [kyfd-0.0.5](http://www.phontron.com/kyfd/download/kyfd-0.0.5.tar.gz)
-  - (not yet) created c-wrapper for kyfd
-  - (not yet) created python interface using ctypes
+  - created c and python interface
+    - c : https://github.com/dsindex/ckyfd
+	- python : https://github.com/dsindex/py-kyfd
 
 - install from source
 ```
