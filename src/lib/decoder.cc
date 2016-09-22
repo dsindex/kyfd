@@ -75,7 +75,7 @@ void Decoder::buildModels() {
     }
 }
 
-bool Decoder::decode(istream& in, ostream& out) {
+bool Decoder::decode(istream& in, ostringstream& out) {
     timeStep_ = 0;
     currTime_[timeStep_++] = clock();
 
@@ -88,7 +88,7 @@ bool Decoder::decode(istream& in, ostream& out) {
 template <class A, class W, class LM>
 bool Decoder::process(const vector< Fst<A>* > & models,
                         const std::vector< const LM* > & fallbacks,
-                        istream & in, ostream & out) {
+                        istream & in, ostringstream & out) {
     currTime_[timeStep_++] = clock();
     Fst<A> * input = makeFst<A>(in);
     if(input == NULL)
@@ -140,7 +140,7 @@ template <class A, class W>
 void Decoder::printPaths(
     const Fst<A> &bestFst,
     const string &header,
-    ostream & resultStream,
+    ostringstream & resultStream,
     bool bothInput) {
     
     // loop through all the paths

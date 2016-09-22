@@ -56,11 +56,12 @@ int main(int argc, char** argv) {
     string line;
     int i = 0;
     int reload = config->getReload();
-    while(decoder->decode(cin, cout)) {
-        if(++i % 100 == 0)
-            cerr << i;
-        else
-            cerr << ".";
+	while( 1 ) {
+		ostringstream out;
+		int ret = decoder->decode(cin, out);
+		if( !ret ) break;
+		cout << out.str();
+		i++;
         // reload the model if necessary
         if(reload && i % reload == 0)
             decoder->buildModels();

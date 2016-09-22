@@ -46,3 +46,13 @@ $ ./configure ; make ; make install
 $ ls install
 bin include lib
 ```
+
+- how to test
+  - download prebuilt FST and config file
+  ```
+  $ cd kyfd/src/bin
+  $ curl -OL https://shleekr.github.io/public/data/rouzeta.tar.gz
+  $ tar -zxvf rouzeta.tar.gz
+  $ cp -rf KFST/Tagger/* .
+  $ cat testme.txt | ./kyfd koreanuni.xml
+  ```

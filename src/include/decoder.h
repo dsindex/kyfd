@@ -47,8 +47,7 @@ public:
     }
 
     void buildModels();
-
-    bool decode(std::istream& in, std::ostream& out);
+    bool decode(std::istream& in, std::ostringstream& out);
 
     void printTimes() {
         double dub = CLOCKS_PER_SEC;
@@ -65,14 +64,14 @@ private:
     template <class A, class W, class LM>
     bool process(const std::vector< fst::Fst<A> * > & models, 
                     const std::vector< const LM* > & fallbacks,
-                    std::istream & in, std::ostream & out);
+                    std::istream & in, std::ostringstream & out);
 
     // print out the paths
     template <class A, class W>
     void printPaths(
         const fst::Fst<A> &bestFst, 
         const std::string &header,
-        std::ostream & resultStream,
+        std::ostringstream & resultStream,
         bool bothInput);
 
     // compose and get the best paths
