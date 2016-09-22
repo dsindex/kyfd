@@ -7,6 +7,8 @@ kyfd
 	  - same version as [kyfd-0.0.5](http://www.phontron.com/kyfd/download/kyfd-0.0.5.tar.gz)
     - changed default installed directory
 	  - installation files will not be located in `/usr/local` but in `pwd`/install
+	- changed include directory structure
+	  - `include/fyfd/*` -> `include/*`
   - created c and python interface
     - https://github.com/dsindex/ckyfd
 
