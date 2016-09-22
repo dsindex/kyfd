@@ -6,8 +6,7 @@ kyfd
     - forked from [kyfd last commit](https://github.com/neubig/kyfd/commit/db6e29e6f2bbc229a08fc902cd1435333f56bc81)
 	  - same version as [kyfd-0.0.5](http://www.phontron.com/kyfd/download/kyfd-0.0.5.tar.gz)
   - created c and python interface
-    - c : https://github.com/dsindex/ckyfd
-	- python : https://github.com/dsindex/py-kyfd
+    - https://github.com/dsindex/ckyfd
 
 - install from source
 ```
