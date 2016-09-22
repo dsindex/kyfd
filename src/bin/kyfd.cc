@@ -60,7 +60,7 @@ int main(int argc, char** argv) {
 		ostringstream out;
 		int ret = decoder->decode(cin, out);
 		if( !ret ) break;
-		cout << out.str();
+		cout << out.str() << endl;
 		i++;
         // reload the model if necessary
         if(reload && i % reload == 0)

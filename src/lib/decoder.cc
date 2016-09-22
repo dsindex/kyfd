@@ -206,8 +206,6 @@ void Decoder::printPaths(
             resultStream << " |||" << input.str();
         if(config_.getOutputFormat() != TEXT_OUTPUT)
             resultStream << " ||| " << getWeightString(weight);
-        resultStream << endl;
-
     }
 
 }
