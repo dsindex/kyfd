@@ -9,6 +9,8 @@ kyfd
 	  - installation files will not be located in `/usr/local` but in `pwd`/install
 	- changed include directory structure
 	  - `include/fyfd/*` -> `include/*`
+    - changed ostream to ostringstream for decode(in, out)
+	  - on going
   - created c and python interface
     - https://github.com/dsindex/ckyfd
 
