@@ -26,8 +26,8 @@
 #include <ctime>
 #include <fst/arc.h>
 #include <fst/vector-fst.h>
-#include <kyfd/component-arc.h>
-#include <kyfd/decoder-config.h>
+#include <component-arc.h>
+#include <decoder-config.h>
 
 namespace kyfd {
 

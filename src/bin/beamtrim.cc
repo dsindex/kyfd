@@ -22,7 +22,7 @@
 #include <fst/fst.h>
 #include <fst/vector-fst.h>
 
-#include <kyfd/beam-trim.h>
+#include <beam-trim.h>
 
 using namespace std;
 using namespace fst;

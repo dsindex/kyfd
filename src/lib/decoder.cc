@@ -22,9 +22,9 @@
 #include <fst/shortest-path.h>
 #include <fst/project.h>
 #include <fst/compose.h>
-#include <kyfd/decoder.h>
-#include <kyfd/beam-trim.h>
-#include <kyfd/sampgen.h>
+#include <decoder.h>
+#include <beam-trim.h>
+#include <sampgen.h>
 
 using namespace std;
 using namespace fst;

@@ -32,9 +32,9 @@
 #include <fst/minimize.h>
 #include <fst/project.h>
 #include <fst/arcsort.h>
-#include <kyfd/fallback-matcher.h>
-#include <kyfd/component-arc.h>
-#include <kyfd/component-map.h>
+#include <fallback-matcher.h>
+#include <component-arc.h>
+#include <component-map.h>
 
 namespace kyfd {
 

@@ -18,8 +18,8 @@
 //  A program that builds an FST model according to a configuration file
 
 #include <iostream>
-#include <kyfd/decoder.h>
-#include <kyfd/decoder-config.h>
+#include <decoder.h>
+#include <decoder-config.h>
 
 using namespace std;
 using namespace kyfd;

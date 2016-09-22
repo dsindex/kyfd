@@ -20,8 +20,8 @@
 
 #include <fst/vector-fst.h>
 
-#include <kyfd/string-manager.h>
-#include <kyfd/decoder-config.h>
+#include <string-manager.h>
+#include <decoder-config.h>
 
 #include <algorithm>
 #include "config.h"

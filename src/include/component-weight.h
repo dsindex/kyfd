@@ -23,8 +23,8 @@
 
 #include <fst/float-weight.h>
 #include <stdexcept>
-// #include <kyfd/components.h>
-#include <kyfd/util.h>
+// #include <components.h>
+#include <util.h>
 
 // #define DEBUG_COMPONENT
 

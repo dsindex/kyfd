@@ -22,8 +22,8 @@
 
 #include <fst/compose.h>
 
-#include <kyfd/component-map.h>
-#include <kyfd/component-arc.h>
+#include <component-map.h>
+#include <component-arc.h>
 
 using namespace std;
 using namespace fst;

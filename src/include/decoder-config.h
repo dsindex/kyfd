@@ -27,10 +27,10 @@
 #include <xercesc/parsers/XercesDOMParser.hpp>
 #include <fst/arc.h>
 #include <fst/symbol-table.h>
-#include <kyfd/string-manager.h>
-#include <kyfd/fst-node.h>
-#include <kyfd/component-arc.h>
-#include <kyfd/fallback-matcher.h>
+#include <string-manager.h>
+#include <fst-node.h>
+#include <component-arc.h>
+#include <fallback-matcher.h>
 
 //////////////////////////////////////////////////
 // A class that parses KYFD configuration files //

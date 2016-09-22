@@ -24,8 +24,8 @@
 #include <fst/map.h>
 #include <fst/arc.h>
 
-#include <kyfd/component-arc.h>
-#include <kyfd/component-weight.h>
+#include <component-arc.h>
+#include <component-weight.h>
 
 namespace fst {
 

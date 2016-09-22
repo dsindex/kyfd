@@ -17,7 +17,7 @@
 //
 //  A file to handle Xerces strings
 
-#include <kyfd/string-manager.h>
+#include <string-manager.h>
 
 #include <algorithm>
 

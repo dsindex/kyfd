@@ -22,7 +22,7 @@
 #define FST_COMPONENT_ARC_H__
 
 #include <fst/arc.h>
-#include <kyfd/component-weight.h>
+#include <component-weight.h>
 
 namespace fst {
 
