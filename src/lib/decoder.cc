@@ -206,6 +206,9 @@ void Decoder::printPaths(
             resultStream << " |||" << input.str();
         if(config_.getOutputFormat() != TEXT_OUTPUT)
             resultStream << " ||| " << getWeightString(weight);
+		
+		if(config_.getN() > 1 || config_.getOutputFormat() == SCORE_OUTPUT)
+			resultStream << "\t";
     }
 
 }

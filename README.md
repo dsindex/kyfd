@@ -13,6 +13,7 @@ kyfd
 	  - `include/fyfd/*` -> `include/*`
     - changed ostream to ostringstream for decode(in, out)
 	- move `handleArgument()` to public
+	- added tab separator when using `-nbest n`, `-output score` options
 	```
   - created c and python interface based on the modified version
     - https://github.com/dsindex/ckyfd
