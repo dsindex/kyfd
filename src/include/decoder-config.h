@@ -209,10 +209,10 @@ public:
     const FstNode<fst::ComponentArc> * getComponentNode(unsigned id);
     const FstNode<fst::StdArc> * getStdNode(unsigned id);
 
-private:
-    
     // handle a single argument
     void handleArgument(const char* name, const char* val);
+
+private:
     
     // the implementation
     DecoderConfigImpl* impl_;
