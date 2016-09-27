@@ -370,6 +370,8 @@ void DecoderConfig::printTree(DOMElement* elem, int lev) {
 // TODO: Make command line help
 void DecoderConfig::parseCommandLine(int argc, char** argv) {
 
+    parseConfigFile(argv[argc-1]);
+
     for(int i = 1; i < argc; i += 2) {
         if(!strcmp(argv[i], "-help") || !strcmp(argv[i], "--help")) {
             cerr << "Kyfd help is under construction" << endl;
@@ -386,7 +388,6 @@ void DecoderConfig::parseCommandLine(int argc, char** argv) {
         }
     }
 
-    parseConfigFile(argv[argc-1]);
 
 }
 

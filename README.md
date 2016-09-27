@@ -15,6 +15,7 @@ kyfd
 	- move `handleArgument()` to public
 	- added tab separator when using `-nbest n`, `-output score` options
 	- built libkyfd_static.a static library
+	- executed `parseConfigFile()` before `handleArgument()`
 	```
   - created c and python interface based on the modified version
     - https://github.com/dsindex/ckyfd
