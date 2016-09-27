@@ -387,8 +387,6 @@ void DecoderConfig::parseCommandLine(int argc, char** argv) {
             handleArgument(argv[i]+1, argv[i+1]);
         }
     }
-
-
 }
 
 // build the models
