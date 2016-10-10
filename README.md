@@ -13,7 +13,7 @@ kyfd
 	  - `include/fyfd/*` -> `include/*`
     - changed ostream to ostringstream for decode(in, out)
 	- move `handleArgument()` to public
-	- added tab separator when using `-nbest n`, `-output score` options
+	- added tab separator to outputs when using `-nbest n`, `-output score` options
 	- built libkyfd_static.a static library
 	- executed `parseConfigFile()` before `handleArgument()`
 	```
