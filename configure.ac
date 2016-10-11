@@ -31,7 +31,6 @@ AC_CONFIG_FILES([
     src/bin/Makefile
     src/lib/Makefile
     src/include/Makefile
-    src/include/kyfd/Makefile
 ])
 
 # Checks for programs.
