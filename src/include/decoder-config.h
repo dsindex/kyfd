@@ -171,7 +171,7 @@ public:
     
     // symbol functions
     const string & getUnknownSymbol() const { return impl_->unkSym_; }
-    void setUnknownSymbol(const string & unkSym) { 
+    void setUnknownSymbol(const string & unkSym) {
         impl_->unkSym_ = unkSym;
         if(impl_->iSymbols_) impl_->iUnkId_ = impl_->iSymbols_->Find(unkSym.c_str());
         else impl_->iUnkId_ = -1;
